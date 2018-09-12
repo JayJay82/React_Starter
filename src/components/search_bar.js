@@ -9,7 +9,7 @@ export default class SearchBar extends Component {
     onInputChange = (event) => {
         this.setState({ term : event.target.value});
      }
-   // Controller Component - quando il valore è settato dallo state
+   // Controlled Component - quando il valore è settato dallo state
      render() {
        return (
         <div>
